@@ -64,7 +64,7 @@ export const projectsData = [
     title: "ThreadNest",
     description:
     "This project is built with React.js, featuring user authentication, posting, replying, liking posts, and profile management with Cloudinary integration for profile picture updates.",
-    tags: ["React", "MongoDB", "Tailwind", "NodeJS", "React Query"],
+    tags: ["React", "MongoDB", "Cloudinary", "NodeJS", "React Query"],
     imageUrl: xImg,
     url: "https://github.com/amank1902/ThreadNest"
   },
