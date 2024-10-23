@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import netflixImg from "@/public/netflix.png";
-import xImg from "@/public/x.png";
+import netflixImg from "@/public/sociomedia.png";
+import xImg from "@/public/threadnest.png";
 
 export const links = [
   {
@@ -53,20 +53,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Netflix Clone",
+    title: "SocioMedia",
     description:
-      "This project is built using the MERN stack and Tailwind CSS, features user authentication, movie/series trailers, and a sleek UI for an enhanced viewing experience.",
-    tags: ["React", "MongoDB", "Tailwind", "NodeJS"],
+      "This project is built using the MERN stack, featuring user authentication, post creation, and an interactive UI for dynamic social interactions. Users can like, comment, and update profiles for a seamless social media experience.",
+    tags: ["React", "MongoDB", "Express", "NodeJS"],
     imageUrl: netflixImg,
-    url: "https://netflix-2-ckyx.vercel.app/"
+    url: "https://github.com/amank1902/Social-Media"
   },
   {
-    title: "Twitter Clone",
+    title: "ThreadNest",
     description:
-    "This project is developed using the MERN stack and Tailwind CSS, offers real-time tweets, user authentication, and an intuitive interface, mimicking the core functionality of Twitter.",
+    "This project is built with React.js, featuring user authentication, posting, replying, liking posts, and profile management with Cloudinary integration for profile picture updates.",
     tags: ["React", "MongoDB", "Tailwind", "NodeJS", "React Query"],
     imageUrl: xImg,
-    url: "https://social-app-iorx.onrender.com/"
+    url: "https://github.com/amank1902/ThreadNest"
   },
 ] as const;
 
