@@ -79,7 +79,6 @@ export const skillsData = [
   "Git",
   "BootStrap",
   "MongoDB",
-  "Redux",
-  "Express",
-  "PostgreSQL",
+  "Express.js",
+  "MySQL",
 ] as const;
