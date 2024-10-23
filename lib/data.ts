@@ -55,7 +55,7 @@ export const projectsData = [
   {
     title: "SocioMedia",
     description:
-      "This project is built using the MERN stack, featuring user authentication, post creation, and an interactive UI for dynamic social interactions. Users can like, comment, and update profiles for a seamless social media experience.",
+      "This project is built using the MERN stack, featuring user authentication, post creation and an interactive UI for dynamic social interactions. Users can like, comment and update profiles for a seamless social media experience.",
     tags: ["React", "MongoDB", "Express", "NodeJS"],
     imageUrl: netflixImg,
     url: "https://github.com/amank1902/Social-Media"
