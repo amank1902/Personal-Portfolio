@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import netflixImg from "@/public/sociomedia.png";
-import xImg from "@/public/threadnest.png";
+import sociomediaImg from "@/public/sociomedia.png";
+import threadnestImg from "@/public/threadnest.png";
 
 export const links = [
   {
@@ -23,7 +23,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experienc",
     hash: "#experience",
   },
   {
@@ -57,15 +57,15 @@ export const projectsData = [
     description:
       "This project is built with the MERN stack, featuring user authentication, post creation, and an interactive UI. Users can like, comment, and update profiles for a seamless social experience.",
     tags: ["React", "MongoDB", "Express", "NodeJS"],
-    imageUrl: netflixImg,
+    imageUrl: sociomediaImg,
     url: "https://github.com/amank1902/Social-Media"
   },
   {
     title: "ThreadNest",
     description:
     "This project is built with React.js, featuring user authentication, posting, replying, liking posts, and profile management with Cloudinary integration for profile picture updates.",
-    tags: ["React", "MongoDB", "Cloudinary", "NodeJS", "React Query"],
-    imageUrl: xImg,
+    tags: ["React", "MongoDB", "NodeJS", "Cloudinary", "React Query"],
+    imageUrl: threadnestImg,
     url: "https://github.com/amank1902/ThreadNest"
   },
 ] as const;
