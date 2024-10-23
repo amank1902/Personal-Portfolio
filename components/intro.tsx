@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://res.cloudinary.com/backend1/image/upload/v1724491888/ekcy6plhsydbvbdefhkc.jpg?fit=crop&w=368&h=368&q=100"
+              src="https://res.cloudinary.com/darh8nmmg/image/upload/v1729661598/photo_zoidhq.png?fit=crop&w=368&h=368&q=100"
               alt="Aman Kumar"
               width="192"
               height="192"
