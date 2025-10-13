@@ -19,26 +19,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently a final year student pursuing{" "}
-        <span className="font-medium">BTech </span> from{" "}
+        I am a recent{" "}
+        <span className="font-medium">B.Tech Computer Science Engineering graduate</span> from{" "}
         <span className="font-medium">IIIT Bhagalpur</span>{" "}
-        <span className="font-normal">and</span>{" "}
-        <span className="font-medium">I love programming</span>.{" "}
-        <span className="font-normal">I am working on improving my skills as a full stack developer.</span>{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        <span className="font-normal">with a passion for</span>{" "}
+        <span className="font-medium">software development</span>.{" "}
+        <span className="font-normal">I specialize in full-stack development and continuously enhance my technical expertise across modern web technologies.</span>{" "}
+        <span className="italic">What drives me most in programming</span> is the
+        analytical problem-solving process. I find great satisfaction in{" "}
+        <span className="underline">architecting elegant solutions</span> to
+        complex challenges. My core technical stack
         is{" "}
         <span className="font-medium">
           React, ExpressJS, Node.js, and MongoDB
         </span>
-        . Currently, I'm working towards completing my degree and am eager to find a{" "}
-        <span className="font-medium">full-time </span> software development position where I can further develop my skills and contribute to impactful projects.
+        .
+      </p>
+      
+      <p className="mb-3">
+        I am currently working as an{" "}
+        <span className="font-medium">SDE Intern at Equal (MoneyOne)</span>, where I'm gaining valuable experience in backend development, API integration, and system optimization while contributing to impactful fintech solutions.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and watching movies. I also enjoy{" "}
+        games and watching movies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>

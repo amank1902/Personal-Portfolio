@@ -40,17 +40,9 @@
         "async": false
       }
     },
-    "(app-client)/./context/theme-context.tsx": {
+    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
       "*": {
-        "id": "(sc_client)/./context/theme-context.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./context/active-section-context.tsx": {
-      "*": {
-        "id": "(sc_client)/./context/active-section-context.tsx",
+        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
         "name": "*",
         "chunks": [],
         "async": false
@@ -72,9 +64,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+    "(app-client)/./context/active-section-context.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
+        "id": "(sc_client)/./context/active-section-context.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./context/theme-context.tsx": {
+      "*": {
+        "id": "(sc_client)/./context/theme-context.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -83,14 +83,6 @@
     "(app-client)/./components/about.tsx": {
       "*": {
         "id": "(sc_client)/./components/about.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/projects.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/projects.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -120,14 +112,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/skills.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/skills.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/intro.tsx": {
       "*": {
         "id": "(sc_client)/./components/intro.tsx",
@@ -136,9 +120,25 @@
         "async": false
       }
     },
+    "(app-client)/./components/projects.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/projects.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/section-divider.tsx": {
       "*": {
         "id": "(sc_client)/./components/section-divider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/skills.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/skills.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -227,16 +227,16 @@
       ],
       "async": false
     },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\theme-context.tsx": {
-      "id": "(app-client)/./context/theme-context.tsx",
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
+      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\active-section-context.tsx": {
-      "id": "(app-client)/./context/active-section-context.tsx",
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -259,6 +259,22 @@
       ],
       "async": false
     },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\active-section-context.tsx": {
+      "id": "(app-client)/./context/active-section-context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\theme-context.tsx": {
+      "id": "(app-client)/./context/theme-context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\globals.css": {
       "id": "(app-client)/./app/globals.css",
       "name": "*",
@@ -267,32 +283,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
-      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\about.tsx": {
       "id": "(app-client)/./components/about.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\projects.tsx": {
-      "id": "(app-client)/./components/projects.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -323,14 +315,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\skills.tsx": {
-      "id": "(app-client)/./components/skills.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\intro.tsx": {
       "id": "(app-client)/./components/intro.tsx",
       "name": "*",
@@ -339,8 +323,24 @@
       ],
       "async": false
     },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\projects.tsx": {
+      "id": "(app-client)/./components/projects.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\section-divider.tsx": {
       "id": "(app-client)/./components/section-divider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\skills.tsx": {
+      "id": "(app-client)/./components/skills.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
