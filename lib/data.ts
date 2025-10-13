@@ -69,7 +69,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "At Testline, I engineered a scalable and high-performance testing interface for allmocktest.com, ensuring smooth question transitions, optimized state management, and an intuitive UI using React.js. On the backend, I developed logic in Ruby on Rails to parse syllabus content, dynamically generate exams and sections, and serve structured data to the frontend, reducing manual configuration. I also enhanced the Flutter application by implementing LaTeX rendering, developing complete streak functionality with dedicated pages, and improving the onboarding flow, which significantly boosted user engagement and overall UX.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Feb 2025 - June 2025",
   },
 ] as const;
