@@ -27,27 +27,50 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
 ] as const;
 
-export const experiencesData = [
+export const educationData = [
   {
     title: "Indian Institute of Information Technology Bhagalpur",
-    location: "Bachelor of Technology",
+    location: "Bachelor of Technology in Computer Science Engineering",
     description:
-      "I am a final year BTech student pursuing a comprehensive curriculum in Computer Science Engineering with a focus on software development, data structures, algorithms, and system design. ",
+      "I have completed my B.Tech degree in Computer Science Engineering with a comprehensive curriculum focused on software development, data structures, algorithms, and system design. ",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2025",
   },
   {
-    title: "12th Class",
+    title: "Senior Secondary Education (Class XII)",
     location: "Tomar Children School",
     description:
-      "I completed my senior secondary education from here and achieved 94%",
+      "Completed my senior secondary education with a focus on Science stream, achieving 94% marks and building a strong foundation in Mathematics, Physics, and Chemistry.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2020",
+    date: "2020",
+  },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "Equal (MoneyOne) – SDE Intern",
+    location: "Hyderabad",
+    description:
+      "At Equal, I architected a robust PDF analytics workflow integrating the Equal API, enabling secure PDF uploads, S3 storage, real-time status tracking, and user-facing reporting. I improved reliability by synchronizing database status fields with external analytics provider responses. Additionally, I developed an automated MIS metrics aggregation system that collects, backfills, and stores business metrics using dynamic SQL queries, enabling real-time and historical dashboard reporting. I also designed and implemented a storage optimization solution by migrating XML payloads from RDS to Amazon S3 with a structured prefix strategy and built an efficient retrieval system leveraging RDS metadata, achieving approximately $5,000 per month in AWS cost savings.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2025 - Present",
+  },
+  {
+    title: "Testline – Software Engineer Intern",
+    location: "Remote",
+    description:
+      "At Testline, I engineered a scalable and high-performance testing interface for allmocktest.com, ensuring smooth question transitions, optimized state management, and an intuitive UI using React.js. On the backend, I developed logic in Ruby on Rails to parse syllabus content, dynamically generate exams and sections, and serve structured data to the frontend, reducing manual configuration. I also enhanced the Flutter application by implementing LaTeX rendering, developing complete streak functionality with dedicated pages, and improving the onboarding flow, which significantly boosted user engagement and overall UX.",
+    icon: React.createElement(FaReact),
+    date: "Feb 2025 - June 2025",
   },
 ] as const;
 
@@ -73,12 +96,17 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",,
-  "React",
+  "JavaScript",
+  "C",
+  "C++",
+  "React.js",
   "Node.js",
-  "Git",
-  "BootStrap",
-  "MongoDB",
   "Express.js",
+  "Ruby on Rails",
+  "Flutter",
+  "Git",
+  "Bootstrap",
+  "TailwindCSS",
+  "MongoDB",
   "MySQL",
 ] as const;
