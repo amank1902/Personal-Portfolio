@@ -60,7 +60,7 @@ export const experiencesData = [
     title: "Equal (MoneyOne) – SDE Intern",
     location: "Hyderabad",
     description:
-      "At Equal, I architected a robust PDF analytics workflow integrating the Equal API, enabling secure PDF uploads, S3 storage, real-time status tracking, and user-facing reporting. I improved reliability by synchronizing database status fields with external analytics provider responses. Additionally, I developed an automated MIS metrics aggregation system that collects, backfills, and stores business metrics using dynamic SQL queries, enabling real-time and historical dashboard reporting. I also designed and implemented a storage optimization solution by migrating XML payloads from RDS to Amazon S3 with a structured prefix strategy and built an efficient retrieval system leveraging RDS metadata, achieving approximately $5,000 per month in AWS cost savings.",
+      "At Equal, architected a robust PDF analytics workflow integrating the Equal API, enabling secure PDF uploads, S3 storage, real-time status tracking, and user-facing reporting. I improved reliability by synchronizing database status fields with external analytics provider responses.\n\nAdditionally, developed an automated MIS metrics aggregation system that collects, backfills, and stores business metrics using dynamic SQL queries, enabling real-time and historical dashboard reporting.\n\n Also designed and implemented a storage optimization solution by migrating XML payloads from RDS to Amazon S3 with a structured prefix strategy and built an efficient retrieval system leveraging RDS metadata, achieving approximately $5,000 per month in AWS cost savings.",
     icon: React.createElement(CgWorkAlt),
     date: "July 2025 - Present",
   },
@@ -68,7 +68,7 @@ export const experiencesData = [
     title: "Testline – Software Engineer Intern",
     location: "Remote",
     description:
-      "At Testline, I engineered a scalable and high-performance testing interface for allmocktest.com, ensuring smooth question transitions, optimized state management, and an intuitive UI using React.js. On the backend, I developed logic in Ruby on Rails to parse syllabus content, dynamically generate exams and sections, and serve structured data to the frontend, reducing manual configuration. I also enhanced the Flutter application by implementing LaTeX rendering, developing complete streak functionality with dedicated pages, and improving the onboarding flow, which significantly boosted user engagement and overall UX.",
+      "At Testline, engineered a scalable and high-performance testing interface for allmocktest.com, ensuring smooth question transitions, optimized state management, and an intuitive UI using React.js.\n\n On the backend, developed logic in Ruby on Rails to parse syllabus content, dynamically generate exams and sections, and serve structured data to the frontend, reducing manual configuration.\n\n Enhanced the Flutter application by implementing LaTeX rendering, developing complete streak functionality with dedicated pages, and improving the onboarding flow, which significantly boosted user engagement and overall UX.",
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2025 - June 2025",
   },
@@ -94,19 +94,21 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "C",
   "C++",
+  "HTML",
+  "CSS",
   "React.js",
   "Node.js",
   "Express.js",
   "Ruby on Rails",
   "Flutter",
-  "Git",
-  "Bootstrap",
-  "TailwindCSS",
   "MongoDB",
   "MySQL",
+  "Git",
+  "GitHub",
+  "Bootstrap",
+  "TailwindCSS",
+  "AWS S3",
 ] as const;
