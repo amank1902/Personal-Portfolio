@@ -78,16 +78,18 @@ export const projectsData = [
   {
     title: "SocioMedia",
     description:
-      "This project is built with the MERN stack, featuring user authentication, post creation, and an interactive UI. Users can like, comment, and update profiles for a seamless social experience.",
-    tags: ["React", "MongoDB", "Express", "NodeJS"],
+      "A full-stack social media platform enabling users to connect, share, and engage with interactive content. Built with modern web technologies to deliver a responsive and intuitive user experience.",
+    features: ["Real-time post interactions", "User authentication & authorization", "Profile customization", "Like & comment system"],
+    tags: ["React", "MongoDB", "Express", "Node.js", "JWT"],
     imageUrl: sociomediaImg,
     url: "https://github.com/amank1902/Social-Media"
   },
   {
     title: "ThreadNest",
     description:
-    "This project is built with React.js, featuring user authentication, posting, replying, liking posts, and profile management with Cloudinary integration for profile picture updates.",
-    tags: ["React", "MongoDB", "NodeJS", "Cloudinary", "React Query"],
+    "A modern thread-based discussion platform with advanced features for seamless conversations. Integrates cloud storage for media management and implements efficient state management for optimal performance.",
+    features: ["Threaded conversations", "Cloud image uploads", "Optimistic UI updates", "User profile management"],
+    tags: ["React", "MongoDB", "Node.js", "Cloudinary", "React Query"],
     imageUrl: threadnestImg,
     url: "https://github.com/amank1902/ThreadNest"
   },

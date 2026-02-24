@@ -26,19 +26,35 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: "tween",
-              duration: 0.2,
+              type: "spring",
+              stiffness: 260,
+              damping: 20,
             }}
+            whileHover={{ scale: 1.05 }}
           >
-            <Image
-              src="https://res.cloudinary.com/darh8nmmg/image/upload/v1729661598/photo_zoidhq.png?fit=crop&w=368&h=368&q=100"
-              alt="Aman Kumar"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            <div className="relative">
+              <Image
+                src="https://res.cloudinary.com/darh8nmmg/image/upload/v1729661598/photo_zoidhq.png?fit=crop&w=368&h=368&q=100"
+                alt="Aman Kumar"
+                width="192"
+                height="192"
+                quality="95"
+                priority={true}
+                className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl dark:border-gray-800"
+              />
+              <motion.div 
+                className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-400/20 to-purple-400/20 dark:from-blue-500/30 dark:to-purple-500/30"
+                animate={{ 
+                  opacity: [0.5, 0.8, 0.5],
+                  scale: [1, 1.05, 1],
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              />
+            </div>
           </motion.div>
 
           <motion.span
@@ -51,6 +67,7 @@ export default function Intro() {
               delay: 0.1,
               duration: 0.7,
             }}
+            whileHover={{ scale: 1.2, rotate: 20 }}
           >
             👋
           </motion.span>
@@ -72,11 +89,11 @@ export default function Intro() {
         <br />
         A <span className="font-bold">Software Development Engineer</span> specializing in
         <br />
-        <span className="italic">full-stack development</span>.
+        <span className="italic font-semibold text-gray-700 dark:text-gray-300">full-stack development</span>.
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -87,10 +104,12 @@ export default function Intro() {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2, type: "spring", stiffness: 100 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           <Link
             href="#contact"
-            className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+            className="group bg-gradient-to-r from-gray-900 to-gray-800 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:shadow-lg active:scale-105 transition-all dark:from-white dark:to-gray-100 dark:text-gray-900"
             onClick={() => {
               setActiveSection("Contact");
               setTimeOfLastClick(Date.now());
@@ -102,38 +121,46 @@ export default function Intro() {
         </motion.div>
 
         <motion.a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:shadow-lg active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 backdrop-blur-sm"
           href="/Resume.pdf"
           download
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.25, type: "spring", stiffness: 100 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
         >
           Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </motion.a>
 
-        <motion.a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="http://www.linkedin.com/in/aman-kumar-2671aa258"
-          target="_blank"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, type: "spring", stiffness: 100 }}
-        >
-          <BsLinkedin />
-        </motion.a>
+        <div className="flex gap-2">
+          <motion.a
+            className="bg-white p-4 text-gray-700 hover:text-blue-600 flex items-center gap-2 rounded-full hover:shadow-lg active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-blue-400"
+            href="http://www.linkedin.com/in/aman-kumar-2671aa258"
+            target="_blank"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, type: "spring", stiffness: 100 }}
+            whileHover={{ scale: 1.15, rotate: 5 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <BsLinkedin />
+          </motion.a>
 
-        <motion.a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/amank1902"
-          target="_blank"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.35, type: "spring", stiffness: 100 }}
-        >
-          <FaGithubSquare />
-        </motion.a>
+          <motion.a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full hover:text-gray-950 hover:shadow-lg active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-white"
+            href="https://github.com/amank1902"
+            target="_blank"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.35, type: "spring", stiffness: 100 }}
+            whileHover={{ scale: 1.15, rotate: -5 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <FaGithubSquare />
+          </motion.a>
+        </div>
       </motion.div>
     </section>
   );

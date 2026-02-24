@@ -7,7 +7,7 @@ export default function ScrollIndicator() {
 
   return (
     <motion.div
-      className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 origin-left z-[1000]"
+      className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-400 via-emerald-500 to-green-600 origin-left z-[1000]"
       style={{ scaleX: scrollYProgress }}
     />
   );
