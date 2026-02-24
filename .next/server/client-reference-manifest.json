@@ -40,6 +40,54 @@
         "async": false
       }
     },
+    "(app-client)/./components/header.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/header.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/scroll-indicator.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/scroll-indicator.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/theme-switch.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/theme-switch.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./context/active-section-context.tsx": {
+      "*": {
+        "id": "(sc_client)/./context/active-section-context.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./context/theme-context.tsx": {
+      "*": {
+        "id": "(sc_client)/./context/theme-context.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+      "*": {
+        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/about.tsx": {
       "*": {
         "id": "(sc_client)/./components/about.tsx",
@@ -51,14 +99,6 @@
     "(app-client)/./components/contact.tsx": {
       "*": {
         "id": "(sc_client)/./components/contact.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/experience.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/experience.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -104,49 +144,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+    "(app-client)/./components/experience.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/header.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/header.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/theme-switch.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/theme-switch.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/scroll-indicator.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/scroll-indicator.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./context/active-section-context.tsx": {
-      "*": {
-        "id": "(sc_client)/./context/active-section-context.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./context/theme-context.tsx": {
-      "*": {
-        "id": "(sc_client)/./context/theme-context.tsx",
+        "id": "(sc_client)/./components/experience.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -235,6 +235,70 @@
       ],
       "async": false
     },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\header.tsx": {
+      "id": "(app-client)/./components/header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\scroll-indicator.tsx": {
+      "id": "(app-client)/./components/scroll-indicator.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\theme-switch.tsx": {
+      "id": "(app-client)/./components/theme-switch.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\active-section-context.tsx": {
+      "id": "(app-client)/./context/active-section-context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\theme-context.tsx": {
+      "id": "(app-client)/./context/theme-context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\globals.css": {
+      "id": "(app-client)/./app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
+      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\about.tsx": {
       "id": "(app-client)/./components/about.tsx",
       "name": "*",
@@ -245,14 +309,6 @@
     },
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\contact.tsx": {
       "id": "(app-client)/./components/contact.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\experience.tsx": {
-      "id": "(app-client)/./components/experience.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -299,77 +355,21 @@
       ],
       "async": false
     },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
-      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\experience.tsx": {
+      "id": "(app-client)/./components/experience.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\header.tsx": {
-      "id": "(app-client)/./components/header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\theme-switch.tsx": {
-      "id": "(app-client)/./components/theme-switch.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\components\\scroll-indicator.tsx": {
-      "id": "(app-client)/./components/scroll-indicator.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\active-section-context.tsx": {
-      "id": "(app-client)/./context/active-section-context.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\context\\theme-context.tsx": {
-      "id": "(app-client)/./context/theme-context.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\globals.css": {
-      "id": "(app-client)/./app/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\Users\\amank\\Desktop\\Personal-Portfolio\\app\\page": [
+      "static/css/app/page.css"
     ]
   }
 }
