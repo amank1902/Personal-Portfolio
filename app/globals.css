@@ -13,3 +13,20 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+/* Keyboard key animation */
+@keyframes key-press {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.key-pressed {
+  animation: key-press 0.1s ease-in-out;
+}
