@@ -128,15 +128,16 @@ export default function Intro() {
 
         <motion.a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:shadow-lg active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 backdrop-blur-sm"
-          href="/Resume.pdf"
-          download
+          href="https://drive.google.com/file/d/1N_Qpvw8rqL87bxGZPMXmESyJNhTiL0G9/view"
+          target="_blank"
+          rel="noopener noreferrer"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.25, type: "spring", stiffness: 100 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          Download Resume{" "}
+          Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </motion.a>
 
