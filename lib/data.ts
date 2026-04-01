@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import sociomediaImg from "@/public/sociomedia.png";
+import quizifyaiImg from "@/public/quizifyai.png";
 import threadnestImg from "@/public/threadnest.png";
 
 export const links = [
@@ -49,7 +50,7 @@ export const educationData = [
     title: "Senior Secondary Education (Class XII)",
     location: "Tomar Children School",
     description:
-      "Completed my senior secondary education with a focus on Science stream, achieving 94% marks and building a strong foundation in Mathematics, Physics, and Chemistry.",
+      "Completed senior secondary education in the Science stream with 94% marks, developing a strong academic foundation in Mathematics, Physics, and Chemistry.",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -76,13 +77,19 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "SocioMedia",
+    title: "Quizify AI",
     description:
-      "A full-stack social media platform enabling users to connect, share, and engage with interactive content. Built with modern web technologies to deliver a responsive and intuitive user experience.",
-    features: ["Real-time post interactions", "User authentication & authorization", "Profile customization", "Like & comment system"],
-    tags: ["React", "MongoDB", "Express", "Node.js", "JWT"],
-    imageUrl: sociomediaImg,
-    url: "https://github.com/amank1902/Social-Media"
+      "An AI-powered mock test generator that allows users to upload PDFs, extract study material, and automatically generate quizzes with analytics. Built to help users practice smarter through topic-wise performance tracking, streaks, and personalized insights.",
+    features: [
+      "PDF upload and text extraction",
+      "AI-generated MCQs from study material",
+      "Difficulty and topic-based quiz generation",
+      "Quiz analytics with strong and weak topics",
+      "Daily streak tracking and dashboard insights",
+    ],
+    tags: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB"],
+    imageUrl: quizifyaiImg,
+    url: "https://github.com/amank1902/ai_pdf-generator"
   },
   {
     title: "ThreadNest",
